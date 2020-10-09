@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+  }
+  ul a:hover{
+    color: black !important;
+  }
+  
+  li > a:after{
+      content: '';
+      display: block;
+      height: .1rem;
+      background: #09092a;
+      transform: scaleX(0);
+      transition: transform .3s;
+  }
+  li > a:hover:after{
+      transform: scaleX(1);
+      transition: transform .3s;
+  }
+  .active{
+      color:#09092a !important;
+  }
+
+.card:hover {
+    transform: scale(1.05);
+    transition: .5s ease;
+  }
+  
